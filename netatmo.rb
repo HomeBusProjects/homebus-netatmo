@@ -96,7 +96,10 @@ if mqtt[:host].nil?
                            friendly_name: 'NetAtmo Personal Weather Station',
                            friendly_location: station_name,
                            pin: '',
-                           devices: devices
+                           devices: devices,
+                           provisioner_name: 'localhost',
+                           provisioner_port: 80
+
   unless mqtt
     abort 'MQTT provisioning failed'
   end
