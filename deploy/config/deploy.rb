@@ -1,15 +1,15 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.10.2"
 
-set :application, 'homebus-wunderground'
-set :repo_url, 'git@github.com:romkey/homebus-wunderground.git'
+set :application, 'homebus-netatmo'
+set :repo_url, 'git@github.com:romkey/homebus-netatmo.git'
 set :rbenv_ruby, '2.5.1'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/home/homebus/homebus-wunderground'
+set :deploy_to, '/home/homebus/homebus-netatmo
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
