@@ -42,7 +42,6 @@ GEM
 
 PLATFORMS
   arm64-darwin-20
-  arm64-darwin-21
 
 DEPENDENCIES
   dotenv
@@ -50,4 +49,4 @@ DEPENDENCIES
   netatmo
 
 BUNDLED WITH
-   2.2.31
+   2.2.33
