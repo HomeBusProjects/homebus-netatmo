@@ -1,16 +1,13 @@
 [Unit]
-Description=HomeBus NetAtmo Weather Station publisher
+Description=HomeBus publisher
 After=network.target
 
 [Service]
 Type=simple
-
 User=homebus
 WorkingDirectory=/home/homebus/homebus-netatmo
-
-ExecStart=/home/homebus/.rbenv/bin/rbenv exec bundle exec homebus-netatmo.rb
+ExecStart=/home/homebus/.rbenv/bin/rbenv exec bundle exec bin/homebus-netatmo
 TimeoutSec=30
-
 Restart=always
 
 [Install]

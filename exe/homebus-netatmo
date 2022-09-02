@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'homebus-netatmo/options'
+require 'homebus-netatmo/app'
+
+options = HomebusNetatmo::Options.new
+app = HomebusNetatmo::App.new(options.options)
+app.run!
+

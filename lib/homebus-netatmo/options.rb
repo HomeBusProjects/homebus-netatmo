@@ -1,6 +1,8 @@
 require 'homebus/options'
 
-class NetatmoHomebusAppOptions < Homebus::Options
+require 'homebus-netatmo/version'
+
+class HomebusNetatmo::Options < Homebus::Options
   def app_options(op)
   end
 
@@ -9,7 +11,7 @@ class NetatmoHomebusAppOptions < Homebus::Options
   end
 
   def version
-    '0.0.1'
+    HomebusNetatmo::VERSION
   end
 
   def name

@@ -6,7 +6,7 @@ require 'json'
 require 'pp'
 require 'homebus'
 
-class NetatmoHomebusApp < Homebus::App
+class HomebusNetatmo::App < Homebus::App
   DDC_AIR_SENSOR   = 'org.homebus.experimental.air-sensor'
   DDC_CO2_SENSOR   = 'org.homebus.experimental.co2-sensor'
   DDC_NOISE_SENSOR = 'org.homebus.experimental.noise-sensor'
